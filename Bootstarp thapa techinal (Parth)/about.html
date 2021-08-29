@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="heading"
+          ><img
+            src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/07/attachment_36434417-e1531897536884.jpg?auto=format&q=60&fit=max&w=930"
+            id="imgg"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="about.html">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="gallery.html"
+                >Gallery</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="contact.html"
+                >contact us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main-heading my-5">
+      <div class="text-center">
+        <h1 class="display">About us</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+            <figure>
+              <img
+                src="https://i.pinimg.com/originals/b7/ba/19/b7ba192022c6060bbce03c0f0674c29e.jpg"
+                alt="Image"
+                class="img-fluid about_img"
+              />
+            </figure>
+          </div>
+
+          <div
+            class="
+              col-lg-6 col-md-6 col-12 col-xxl-6
+              d-flex
+              justify-content-center
+              align-items-start
+              flex-column
+            "
+          >
+            <h1>My Jorney</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates similique earum molestiae est dolores velit repellendus
+              laboriosam optio veniam aperiam ratione dicta deleniti dolore in
+              alias modi non, beatae commodi!
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              title="The mighty himalays"
+            >
+              Check More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div id="navbar-example" style="position: relative">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#About-me">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Dropdown</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#scrollspyHeading3"
+                        >Third</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#scrollspyHeading4"
+                        >Fourth</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#scrollspyHeading5"
+                        >Fifth</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div
+              data-bs-spy="scroll"
+              data-bs-target="#navbar-example2"
+              data-bs-offset="0"
+              class="scrollspy-example"
+              tabindex="0"
+              style="height: 300px; overflow-y: scroll"
+              ;
+            >
+              <h4 id="About-me">First heading</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                expedita suscipit soluta explicabo repellat assumenda doloremque
+                nisi accusamus mollitia molestias cumque vel earum obcaecati
+                eligendi natus eveniet nulla libero recusandae temporibus illo
+                rerum quasi, iste dolores nemo! Inventore quis id quaerat
+                accusantium dolor, ipsam aperiam laudantium quisquam delectus.
+                Repudiandae, optio.
+              </p>
+              <h4 id="scrollspyHeading2">Second heading</h4>
+              <p></p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                expedita suscipit soluta explicabo repellat assumenda doloremque
+                nisi accusamus mollitia molestias cumque vel earum obcaecati
+                eligendi natus eveniet nulla libero recusandae temporibus illo
+                rerum quasi, iste dolores nemo! Inventore quis id quaerat
+                accusantium dolor, ipsam aperiam laudantium quisquam delectus.
+                Repudiandae, optio.
+              </p>
+              <h4 id="scrollspyHeading3">Third heading</h4>
+              <p></p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                expedita suscipit soluta explicabo repellat assumenda doloremque
+                nisi accusamus mollitia molestias cumque vel earum obcaecati
+                eligendi natus eveniet nulla libero recusandae temporibus illo
+                rerum quasi, iste dolores nemo! Inventore quis id quaerat
+                accusantium dolor, ipsam aperiam laudantium quisquam delectus.
+                Repudiandae, optio.
+              </p>
+              <h4 id="scrollspyHeading4">Fourth heading</h4>
+              <p></p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                expedita suscipit soluta explicabo repellat assumenda doloremque
+                nisi accusamus mollitia molestias cumque vel earum obcaecati
+                eligendi natus eveniet nulla libero recusandae temporibus illo
+                rerum quasi, iste dolores nemo! Inventore quis id quaerat
+                accusantium dolor, ipsam aperiam laudantium quisquam delectus.
+                Repudiandae, optio.
+              </p>
+              <h4 id="scrollspyHeading5">Fifth heading</h4>
+              <p></p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
+                expedita suscipit soluta explicabo repellat assumenda doloremque
+                nisi accusamus mollitia molestias cumque vel earum obcaecati
+                eligendi natus eveniet nulla libero recusandae temporibus illo
+                rerum quasi, iste dolores nemo! Inventore quis id quaerat
+                accusantium dolor, ipsam aperiam laudantium quisquam delectus.
+                Repudiandae, optio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-secondary text-center text-white" id="a">
+      <p>&copy; Bootstarp5</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: "#navbar-example",
+      });
+    </script>
+    <script></script>
+  </body>
+</html>
